@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/KoenvdStroom/Magister-API-key/issues"
   },
-  "homepage": "https://github.com/KoenvdStroom/Magister-API-key#readme"
+  "homepage": "https://github.com/KoenvdStroom/Magister-API-key#readme",
+  "dependencies": {
+    "puppeteer": "^7.0.1"
+  }
 }
