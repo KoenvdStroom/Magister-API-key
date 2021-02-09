@@ -12,6 +12,8 @@ module.exports = {
       await page.type("#password", password, {delay: 20});
       await (await page.$("#password")).press("Enter");
       await page.waitForSelector("#column0")
+      await page.goto('https://pac.magister.net/magister/#/agenda');
+      await page.waitForSelector('#afsprakenLijst')
       const localStorageData = await page.evaluate(() => {
         let json = {};
         for (let i = 0; i < sessionStorage.length; i++) {
