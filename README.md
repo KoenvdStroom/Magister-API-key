@@ -1,4 +1,5 @@
 # Magister-API-Key
+[![NPM](https://nodei.co/npm/magister-api-key.png)](https://npmjs.org/package/magister-api-key)
 ## Details
 Since there is no way to get an API key the normal way, I've decided to reverse engineer the Magister API keys.
 ## Usage
