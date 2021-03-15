@@ -1,11 +1,8 @@
 {
   "name": "magister-api-key",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
-
-
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/KoenvdStroom/Magister-API-key.git"

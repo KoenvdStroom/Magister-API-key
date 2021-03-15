@@ -24,7 +24,6 @@ module.exports = {
       });
       var apiInfo = JSON.parse(localStorageData["oidc.user:https://accounts.magister.net:M6-pac.magister.net"]);
       var apiKey = apiInfo["id_token"];
-      await browser.close();
       return apiKey;
     }catch(e){
       console.log(e)
