@@ -1,4 +1,5 @@
 # Magister-API-Key
+## Currently malfunctioning -- Do Not Use
 ## Details
 Since there is no way to get an API key the normal way, I've decided to reverse engineer the Magister API keys.
 ## Usage
