@@ -23,7 +23,8 @@ module.exports = {
         return json;
       });
       var apiInfo = JSON.parse(localStorageData["oidc.user:https://accounts.magister.net:M6-pac.magister.net"]);
-      var apiKey = apiInfo["id_token"];
+      var apiKey = apiInfo["access_token"];
+      await browser.close();
       return apiKey;
     }catch(e){
       console.log(e)
