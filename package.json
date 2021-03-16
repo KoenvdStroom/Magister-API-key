@@ -1,6 +1,6 @@
 {
   "name": "magister-api-key",
-  "version": "1.5.3",
+  "version": "1.5.4",
   "description": "",
   "main": "index.js",
   "types": "./typings/index.d.ts",
