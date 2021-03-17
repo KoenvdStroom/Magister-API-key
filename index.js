@@ -1,7 +1,7 @@
 const puppeteer = require('puppeteer');
 module.exports = {
-  get: async function (url, username, password, debug = false) {
-    const browser = await puppeteer.launch({headless: debug});
+  get: async function (url, username, password, debug=false) {
+    const browser = await puppeteer.launch({headless: !debug});
     const page = await browser.newPage();
     try{
       await page.goto(url);
