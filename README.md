@@ -7,8 +7,10 @@ First import the project
 ```javascript
 const magister = require('magister-api-key');
 ```
-To get a key, use the function `magister.get('url', 'username', 'password')`. This is an async function. 
+To get a key, use the function `magister.get('url', 'username', 'password', <false>)`. This is an async function. 
 For `url` use your Magister URL. For `username` and `password` use your Magister username and password. This will return the your API key. To use the API, I usually check in the network tab of the Chrome devtools what requests are made by Magister itself, and following those URL's you can get the data.
+
+If you set debug mode to true, puppeteer will launch without headless mode, so you can see what is going on with the browser.
 
 ## Disclaimer
 This repository is not affiliated with SchoolMaster's Magister in any way.
