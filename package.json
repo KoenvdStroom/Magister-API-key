@@ -1,6 +1,6 @@
 {
   "name": "magister-api-key",
-  "version": "1.5.7",
+  "version": "1.5.8",
   "description": "",
   "main": "index.js",
   "types": "./typings/index.d.ts",
@@ -15,7 +15,6 @@
   },
   "homepage": "https://github.com/KoenvdStroom/Magister-API-key#readme",
   "dependencies": {
-    "puppeteer": "^7.0.1",
-    "request": "^2.88.2"
+    "puppeteer": "10.0.0",
   }
 }
