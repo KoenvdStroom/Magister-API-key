@@ -1,3 +1,4 @@
+## It is recommended you don't use this one, in favour of [magister-openid](https://www.npmjs.com/package/magister-openid) or [magister](https://www.npmjs.com/package/magister) as this one uses puppeteer which is very inefficient.
 # Magister-API-Key
 [![NPM](https://nodei.co/npm/magister-api-key.png?downloads=true)](https://npmjs.org/package/magister-api-key)
 ## Details
